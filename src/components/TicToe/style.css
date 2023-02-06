@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+table td {
+  border: 1px solid blue;
+  padding: 40px 45px;
+  color: red;
+  font-size: 32px;
+}
+p {
+  font-size: 24px;
+}
+button {
+  padding: 12px 30px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid blue;
+  color: red;
+  transition: 1s;
+}
+button:hover {
+  transition: 1s;
+  background-color: blue;
+  color: red;
+}
